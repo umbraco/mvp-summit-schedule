@@ -28,28 +28,28 @@
   }
   .wrap{max-width:1080px;margin:0 auto}
   header.page{margin-bottom:18px}
-  h1{font-size:32px;margin:0 0 6px;letter-spacing:-.01em}
-  .sub{color:var(--muted);font-size:16px}
-  .legend{display:flex;flex-wrap:wrap;gap:8px 16px;margin:18px 0 6px;font-size:14px;color:var(--muted)}
+  h1{font-size:36px;margin:0 0 6px;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:17px}
+  .legend{display:flex;flex-wrap:wrap;gap:8px 16px;margin:18px 0 6px;font-size:15px;color:var(--muted)}
   .legend span{display:inline-flex;align-items:center;gap:6px}
-  .dot{width:12px;height:12px;border-radius:3px;display:inline-block}
-  .day{margin:30px 0 12px;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px}
-  .day h2{font-size:23px;margin:0}
-  .day .note{font-size:14px;color:var(--muted)}
+  .dot{width:13px;height:13px;border-radius:3px;display:inline-block}
+  .day{margin:32px 0 12px;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px}
+  .day h2{font-size:26px;margin:0}
+  .day .note{font-size:15px;color:var(--muted)}
   table{width:100%;border-collapse:separate;border-spacing:0 8px;table-layout:fixed}
   col.time{width:118px}
   .cell .title,.cell .desc,.cell .by{overflow-wrap:break-word;word-wrap:break-word}
-  th{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);
+  th{font-size:14px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);
      text-align:left;padding:0 12px 2px;font-weight:600}
   td{vertical-align:top;padding:0}
-  td.time{font-size:15px;color:var(--muted);padding:15px 10px 0 4px;white-space:nowrap;font-variant-numeric:tabular-nums}
+  td.time{font-size:16px;color:var(--muted);padding:16px 10px 0 4px;white-space:nowrap;font-variant-numeric:tabular-nums}
   .cell{
     background:var(--card);border:1px solid var(--line);border-left:4px solid var(--shared);
-    border-radius:9px;padding:13px 15px;height:100%;
+    border-radius:9px;padding:14px 16px;height:100%;
   }
-  .cell .title{font-weight:650;font-size:17px;margin:0 0 4px;line-height:1.35}
-  .cell .desc{font-size:15px;color:#454a5e;margin:4px 0 0}
-  .cell .by{font-size:13.5px;color:var(--muted);margin-top:7px;font-style:italic}
+  .cell .title{font-weight:650;font-size:19px;margin:0 0 4px;line-height:1.35}
+  .cell .desc{font-size:16.5px;color:#454a5e;margin:5px 0 0}
+  .cell .by{font-size:14.5px;color:var(--muted);margin-top:8px;font-style:italic}
   td.cell-wrap{padding:0 6px}
   .t1{border-left-color:var(--t1)}
   .t2{border-left-color:var(--t2)}
@@ -57,27 +57,27 @@
   .shared{border-left-color:var(--shared);background:var(--shared-soft)}
   .shared .title{font-weight:600}
   .switch{border-left-color:#cfd4e6;background:#f7f8fc;padding:7px 15px}
-  .switch .title{font-weight:600;font-size:13px;color:var(--muted);margin:0;letter-spacing:.02em}
+  .switch .title{font-weight:600;font-size:14px;color:var(--muted);margin:0;letter-spacing:.02em}
   .flag{color:#b23b37;font-weight:600}
 
   /* Stack tracks into a single column on phones & tablets */
   @media (max-width:720px){
     body{padding:22px 14px 48px;line-height:1.5}
-    h1{font-size:26px}
-    .sub{font-size:15px}
-    .day h2{font-size:21px}
+    h1{font-size:30px}
+    .sub{font-size:16px}
+    .day h2{font-size:24px}
     table{border-spacing:0}
     colgroup,thead{display:none}
     tbody,tr,td{display:block;width:auto}
     tr{margin-bottom:16px}
-    td.time{padding:0 2px 7px;font-size:15px;font-weight:600;color:var(--ink)}
+    td.time{padding:0 2px 7px;font-size:16px;font-weight:600;color:var(--ink)}
     td.cell-wrap{padding:0;margin-bottom:8px}
     td.cell-wrap:last-child{margin-bottom:0}
-    .cell .title{font-size:17px}
-    .cell .desc{font-size:15.5px}
+    .cell .title{font-size:19px}
+    .cell .desc{font-size:17px}
     /* Column headers are hidden on mobile, so name the room in the card */
     .cell.t1::before,.cell.t2::before{
-      display:block;font-size:12px;font-weight:700;text-transform:uppercase;
+      display:block;font-size:13px;font-weight:700;text-transform:uppercase;
       letter-spacing:.04em;margin:0 0 5px;
     }
     .cell.t1::before{content:"Track 1 · Hovedbanegården (100)";color:var(--t1)}
